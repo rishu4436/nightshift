@@ -1,6 +1,7 @@
 # Nightshift
 
-**Bitget AI Hackathon S2 · Agentic Trading · Cross-Asset Execution**
+**Bitget AI Hackathon S2 · Agentic Trading · Cross-Asset Execution**  
+Repo: https://github.com/rishu4436/nightshift
 
 One Bitget UTA. Frozen NVIDIA (`rNVDA`) collateral. Bitcoin still moves. Monday can kill the account. Nightshift prices **Monday’s open tonight** and cuts the **live** leg. Qwen explains. The kernel sizes.
 

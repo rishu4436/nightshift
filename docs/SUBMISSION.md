@@ -86,7 +86,7 @@ Live LLM trading records in 2026 show weak directional edge and volatility-blind
 Demo (local): http://127.0.0.1:8080  — judges cannot use this; attach a screen-recording of Start 90s show + Live book
 Share autopsy HTML: reports/latest.html (also /share when the desk is running)
 Judge cockpit: http://127.0.0.1:8080/cockpit  — POST /api/evaluate writes a receipt, exchange_order=false
-Code: [PUBLIC GITHUB URL — required]
+Code: https://github.com/rishu4436/nightshift
 Paper log: logs/fills.jsonl and logs/audit.jsonl (timestamp, instrument, direction, price, qty, cash_delta)
 Receipts: logs/receipts.jsonl (hash chain)
 README: repo root
