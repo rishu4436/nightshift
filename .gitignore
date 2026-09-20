@@ -10,3 +10,6 @@ reports/latest.json
 data/cash_close.json
 .DS_Store
 *.log
+videos/frames/
+videos/clips/
+videos/vo/

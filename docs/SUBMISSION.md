@@ -83,7 +83,8 @@ Live LLM trading records in 2026 show weak directional edge and volatility-blind
 ## Submission material links (one per line, labeled)
 
 ```
-Demo (local): http://127.0.0.1:8080  — judges cannot use this; attach a screen-recording of Start 90s show + Live book
+Demo video: videos/nightshift-90s.mp4 (upload to unlisted YouTube and paste that URL)
+Demo (local): http://127.0.0.1:8080  — judges cannot use this; the 90s video is the accessible demo
 Share autopsy HTML: reports/latest.html (also /share when the desk is running)
 Judge cockpit: http://127.0.0.1:8080/cockpit  — POST /api/evaluate writes a receipt, exchange_order=false
 Code: https://github.com/rishu4436/nightshift
