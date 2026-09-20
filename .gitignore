@@ -5,6 +5,7 @@ __pycache__/
 .mypy_cache/
 .env
 logs/paper_account.json
+logs/.gitkeep
 reports/latest.json
 data/cash_close.json
 .DS_Store

@@ -10,7 +10,9 @@ This is not a chatbot. It is not a Bitget API trading bot. Public prices + a pap
 ## Show it (90 seconds)
 
 ```powershell
-.\start.ps1
+python -m venv .venv
+.\.venv\Scripts\pip install -r requirements.txt
+.\.venv\Scripts\python -m nightshift serve --host 127.0.0.1 --port 8080
 ```
 
 Open http://127.0.0.1:8080 · cockpit http://127.0.0.1:8080/cockpit
