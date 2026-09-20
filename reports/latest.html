@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>NIGHTSHIFT autopsy — CUT_LIVE</title>
+  <style>
+    body { margin:0; background:#08090c; color:#f3efe6; font:16px/1.45 Instrument Sans, system-ui, sans-serif; }
+    main { max-width:880px; margin:0 auto; padding:40px 20px 80px; }
+    h1 { font-family: Syne, sans-serif; letter-spacing:-.03em; }
+    h1 span { color:#3ee6b6; }
+    .row { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+    .card { border:1px solid rgba(243,239,230,.12); border-radius:16px; padding:18px; background:rgba(16,18,24,.8); }
+    .SAFE,.HOLD { color:#3ee6b6; }
+    .DEAD,.CUT_LIVE,.CONVERT_COLLATERAL { color:#ff5d73; }
+    .CALL,.TIGHT,.REFUSE_FAKE_HEDGE { color:#e8b86d; }
+    .mute { color:#9b968b; font-size:13px; }
+    code { color:#3ee6b6; }
+    @media (max-width:700px) { .row { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <p class="mute">Nightshift · Bitget AI Hackathon S2 · Cross-Asset Execution · 2026-09-20 14:54 UTC</p>
+  <h1>NIGHT<span>SHIFT</span></h1>
+  <p>While you sleep, Bitget freezes rToken collateral and keeps trading your crypto.
+     This page is one autopsy: screen vs Monday p90 vs kernel. Qwen explains. The kernel sizes.</p>
+  <p>You hold $10k rNVDA as UTA margin and a 5x BTC long that already lost 8%. Bitget froze the rNVDA index at Friday&#x27;s close, so the screen still treats NVIDIA as $10k. Monday p90 (−10%) unfreezes that index and the account can no longer fund IM.</p>
+  <div class="row">
+    <div class="card">
+      <p class="mute">Screen (frozen index)</p>
+      <h2 class="SAFE">SAFE</h2>
+      <p>Equity $7,391 · resource $6,391 · IM $6,000</p>
+    </div>
+    <div class="card">
+      <p class="mute">Monday p90</p>
+      <h2 class="DEAD">DEAD</h2>
+      <p>Equity $6,391 · resource $5,491 · IM $6,000</p>
+    </div>
+  </div>
+  <div class="card" style="margin-top:14px">
+    <p class="mute">Kernel · session weekend · news nvidia_idio</p>
+    <h2 class="CUT_LIVE">CUT_LIVE</h2>
+    <p>Session: weekend. News: nvidia_idio. Screen: equity $7,391, credit $9,000, resource $6,391 vs IM $6,000 → CALL. Monday p90: equity $6,391, credit $8,100, resource $5,491 vs IM $6,000 → DEAD. Kernel: cut_live BTCUSDT 25%. Cut BTCUSDT by 25%. Crypto marks are live; this frees IM tonight. Policy: resource must cover IM × 1.15 after p90. The model cannot raise leverage or open risk.</p>
+    <ul><li><code>cut_live</code> BTCUSDT 25% — Cut BTCUSDT by 25%. Crypto marks are live; this frees IM tonight.</li></ul>
+    <p class="mute">Without kernel Monday is DEAD. With kernel: SAFE.</p>
+  </div>
+  <p class="mute">Not investment advice. Paper UTA. No Bitget private API required for this snapshot.</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.env
+logs/paper_account.json
+reports/latest.json
+data/cash_close.json
+.DS_Store
+*.log

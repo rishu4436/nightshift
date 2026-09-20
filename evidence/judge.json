@@ -1,0 +1,54 @@
+{
+  "claims": [
+    {
+      "claim": "Public Bitget marks (spot/perp tickers)",
+      "status": "proven"
+    },
+    {
+      "claim": "Paper UTA kernel (HOLD / CUT_LIVE / CONVERT / REFUSE)",
+      "status": "proven"
+    },
+    {
+      "claim": "Qwen classifies + narrates",
+      "status": "proven"
+    },
+    {
+      "claim": "Qwen sizes or sends orders",
+      "status": "not claimed"
+    },
+    {
+      "claim": "Live Bitget exchange fill / Demo order id",
+      "status": "not claimed"
+    },
+    {
+      "claim": "Hash-chained evaluate receipts",
+      "status": "proven"
+    },
+    {
+      "claim": "Share HTML autopsy without the server",
+      "status": "proven"
+    }
+  ],
+  "chain": {
+    "ok": true,
+    "n": 18,
+    "detail": "chain ok",
+    "tip": "f7b94204913c8ce1"
+  },
+  "latest_receipt": {
+    "seq": 18,
+    "ts": "2026-09-20T14:54:18Z",
+    "prev_hash": "20c7afbada3abfbe015852b6849b06aff8026ea697b3d462e96f854944904cd3",
+    "scenario": "frozen_illusion",
+    "action": "CUT_LIVE",
+    "verdict": "ALLOW_CAPPED",
+    "llm_sized": false,
+    "llm_used": false,
+    "exchange_order": false,
+    "screen": "SAFE",
+    "p90": "DEAD",
+    "after": "SAFE",
+    "hash": "f7b94204913c8ce193d5f9f8a35ce624ed6f44320d2a876bd0e53f3bd7c8767f"
+  },
+  "ts": "2026-09-20T14:54:18Z"
+}

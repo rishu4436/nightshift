@@ -1,0 +1,5 @@
+{"ts": "2026-09-18T13:16:05Z", "instrument": "BTCUSDT", "direction": "sell", "price": 92000.0, "quantity": 0.08152174, "cash_delta": -656.6739, "kind": "cut_live", "run_id": "ns_d97b1608e5a1"}
+{"ts": "2026-09-18T13:16:54Z", "instrument": "BTCUSDT", "direction": "sell", "price": 92000.0, "quantity": 0.08152174, "cash_delta": -656.6739, "kind": "cut_live", "run_id": "ns_70f7b83df0ca"}
+{"ts": "2026-09-18T13:28:16Z", "instrument": "BTCUSDT", "direction": "sell", "price": 92000.0, "quantity": 0.08152174, "cash_delta": -656.6739, "kind": "cut_live", "run_id": "ns_df9d120eb99a"}
+{"ts": "2026-09-18T15:09:46Z", "instrument": "BTCUSDT", "direction": "sell", "price": 92000.0, "quantity": 0.08152174, "cash_delta": -656.6739, "kind": "cut_live", "run_id": "ns_a44fef90b809"}
+{"ts": "2026-09-20T14:54:18Z", "instrument": "BTCUSDT", "direction": "sell", "price": 92000.0, "quantity": 0.08152174, "cash_delta": -656.6739, "kind": "cut_live", "run_id": "ns_d84edf8be278"}
